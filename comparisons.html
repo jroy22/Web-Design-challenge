@@ -11,8 +11,28 @@
 <body>
     <nav class = "navbar">
         <a class = "navbar-brand" href = "index.html">Latitude</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="dropdown" >
+               <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" role="button" data-toggle="dropdown" 
+               aria-haspopup="true" aria-expanded="false">Plots</a>
+  
+                   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="temperature.html">Temperature</a>
+                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                  </div>
+           </div>
+       <div>
+              <a class="nav-link" href="data.html">Data</a>
+              <a class="nav-link" href="comparisons.html">Comparisons</a> 
+      </div>
     </nav>
-    
+
     <div class="container">
 
         <div class="row">
